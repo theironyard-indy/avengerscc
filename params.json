@@ -1,0 +1,6 @@
+{
+  "name": "Become a Data Superhero with Ruby",
+  "tagline": "A Crash Course for The Iron Yard - Indianapolis",
+  "body": "# Being a superhero can be a dangerous occupation \r\n\r\n## Course materials\r\n\r\n- If you haven't already, sign up for a [Cloud 9 account](https://c9.io/). We'll be using Cloud 9 as our programming environment this evening.\r\n- We'll be using this link as our template for tonight's project (more later): `https://github.com/theironyard-indy/avengerscc.git`\r\n\r\n## Description\r\n\r\nIn this crash course, we explore the Ruby programming language and use it to answer some burning questions about America's most popular superhero team - The Avengers.\r\n\r\n- How likely are you to die when you join The Avengers? \r\n- If you die, how likely are you to come back? \r\n- Do male Avengers die more often than women? \r\n- Wait. Just how many folks have been in the Avengers anyway?\r\n- And more!\r\n\r\n#### Along the way, you'll learn about:\r\n\r\n- Variables \r\n- Arrays \r\n- Hashes \r\n- Data Structures \r\n- CSVs \r\n- Enumerable\r\n- Comic books\r\n\r\n_Of note: We won't be delving into Ruby on Rails, the popular Ruby-based web application framework. Ruby itself is fun enough to fill an evening._",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
