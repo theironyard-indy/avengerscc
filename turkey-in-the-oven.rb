@@ -28,6 +28,7 @@ class Avenger
     self.death_records = row.to_h.values_at(*LIFE_FIELDS)
   end
 
+  # This returns true/false if the Avenger is currently dead
   def currently_deceased?
     death_records.reject{|f| f == "NO"}.compact.length.odd?
   end
