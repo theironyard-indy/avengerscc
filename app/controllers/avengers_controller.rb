@@ -12,6 +12,18 @@ class AvengersController < ApplicationController
     @avenger = Avenger.new
   end
 
+  def create
+    @avenger = Avenger.new(avenger_params)
+    @avenger.alive = true
+    @avenger.year = Time.now.year
+    if @avenger.save
+      flash[:success] = "Welcome to the Avengers, #{@avenger.name}!"
+      redirect_to :root
+    else
+      render :new
+    end
+  end
+
   private
 
   def avenger_params

@@ -1,3 +1,25 @@
+<h1>Avengers introduced per year</h1>
+
+<%= line_chart Avenger.group(:year).count %>
+
+<h1>Avengers by gender</h1>
+
+<%= bar_chart Avenger.group(:gender).count %>
+
+<h1>Avengers by living status</h1>
+<%= bar_chart Avenger.group(:alive).count %>
+
+<div class="row">
+  <div class="col-xs-6">
+    <h1>Living status by gender: Female</h1>
+    <%= pie_chart Avenger.where(gender: "female").group(:alive).count %>
+  </div>
+  <div class="col-xs-6">
+    <h1>Living status by gender: Male</h1>
+    <%= pie_chart Avenger.where(gender: "male").group(:alive).count %>
+  </div>
+</div>
+
 <h1>Avengers all-time roster</h1>
 
 <table class="table table-striped">
